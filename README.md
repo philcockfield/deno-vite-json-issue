@@ -1,7 +1,15 @@
 # Issue Reproduction
 
-A sample Deno + Vite repo that demonstrates importing from a [JSR hosted module](https://jsr.io/@sys/std/0.0.132/deno.json) containing a
+A sample Deno + Vite repo that demonstrates importing from a [JSR hosted module](https://jsr.io/@sys/std/0.0.132/src/pkg.ts) containing a
 `with { type: 'json' }` import:
+
+local import:
+
+```ts
+import { pkg } from "@sys/std";
+```
+
+...references remote ([jsr](https://jsr.io/@sys/std/0.0.132/deno.json)) registry ↓
 
 ```ts
 import { default as deno } from '../deno.json' with { type: 'json' };
