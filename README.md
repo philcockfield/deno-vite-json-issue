@@ -1,6 +1,6 @@
 # Issue Reproduction
 
-A sample Deno + Vite repo that demonstrates importing from a [JSR hosted module](https://jsr.io/@sys/std/0.0.132/deno.json) that contains a
+A sample Deno + Vite repo that demonstrates importing from a [JSR hosted module](https://jsr.io/@sys/std/0.0.132/deno.json) containing a
 `with { type: 'json' }` import:
 
 ```ts
