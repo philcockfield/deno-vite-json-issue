@@ -36,5 +36,7 @@ error during build:
 ## References
 
 - Typescript file: https://jsr.io/@sys/std/0.0.132/src/pkg.ts
+
 - ↑ referenced JSON file: https://jsr.io/@sys/std/0.0.132/deno.json
-- Issue: https://github.com/denoland/deno-vite-plugin
+
+- Issue: https://github.com/denoland/deno-vite-plugin/issues/52
